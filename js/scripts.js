@@ -22,10 +22,10 @@ jQuery(function() {
 	$('#edit_bg').click(function () {
 
 		if (change_bg == false) {change_bg = true;
-				$('#my_bg').attr('src','images/ranch.png');
+				$('#my_bg').attr('src','images/bluecheese.png');
 		} else {
 			change_bg = false;
-			  $('#my_bg').attr('src','images/bluecheese.png');
+			  $('#my_bg').attr('src','images/ranch.png');
 		}
 	});
 });

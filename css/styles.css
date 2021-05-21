@@ -1,20 +1,22 @@
 body {
-  background: url("../images/wingbackground.jpg");
+  background: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   position: absolute;
   font-family: 'Goblin One', sans-serif;
   font-weight: bold;
-  font-size: 200px; }
+  font-size: 40px;
+  color: #fff; }
 
 h2 {
-  margin-top: 50px;
+  font-size: 40px;
+  margin-top: 70px;
   padding: 140px; }
 
 .img-container {
   position: relative;
-  top: 0;
+  top: -70px;
   left: 0; }
 
 .sauce {
@@ -25,7 +27,7 @@ h2 {
 .wing {
   position: absolute;
   top: 0;
-  left: 0; }
+  left: 360px; }
 
 .btn.btn-primary {
   font-family: sans-serif; }
